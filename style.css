@@ -1,0 +1,66 @@
+body {
+  font-family: "Bebas Neue", sans-serif;
+
+}
+
+.navbar {
+  background-color: #e9712b;
+}
+
+.navbar img {
+  width: 120px;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #fff;
+  color: #853422;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #ffeae6;
+}
+
+.section-title {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#sobre-o-restaurante,
+#cardapio {
+  background-color: #ffeae6;
+}
+
+.text-colored {
+  color: #853422;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+  background-color: #853422;
+  color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+  color: #853422;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 280px;
+  }
+}
